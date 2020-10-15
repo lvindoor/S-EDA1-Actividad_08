@@ -13,11 +13,21 @@ int main() {
     c_02.setRam(4);
     c_02.setNombreEquipo("Ivindoor");
     c_02.setProcesador("Ryzen Pro 7");
+
+    /* Metodo de Sobrecarga */
+    cout << "Agrega una Computadora" << endl;
+    Computadora c_03;
+    cin >> c_03;
     
+    cout << endl << "Agregaste los sig. Datos :" << endl;
+    cout << c_03;
+
     /* Agregar y Mostrar */
     Laboratorio lab;
     lab.agregarComputadora(c_01);
     lab.agregarComputadora(c_02);
+    lab.agregarComputadora(c_03);
+    cout << endl << "Estas son todas tus Computadoras :" << endl;
     lab.mostrar();
     
     return 0;

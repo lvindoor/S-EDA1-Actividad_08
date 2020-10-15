@@ -1,7 +1,5 @@
 #include "computadora.h"
 
-using namespace std;
-
 Computadora::Computadora() { }
 
 Computadora::Computadora
