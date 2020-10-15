@@ -17,10 +17,10 @@ int main() {
     /* Metodo de Sobrecarga */
     cout << "Agrega una Computadora" << endl;
     Computadora c_03;
-    cin >> c_03;
+    cin >> c_03; // agregar computadora
     
     cout << endl << "Agregaste los sig. Datos :" << endl;
-    cout << c_03;
+    cout << c_03; // mostrar computadora
 
     /* Agregar y Mostrar */
     Laboratorio lab;
