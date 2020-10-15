@@ -24,9 +24,8 @@ int main() {
 
     /* Agregar y Mostrar */
     Laboratorio lab;
-    lab.agregarComputadora(c_01);
-    lab.agregarComputadora(c_02);
-    lab.agregarComputadora(c_03);
+    lab.agregarComputadora(c_01); // agregamos metodo normal
+    lab << c_02 << c_03; // agregamos al arreglo
     cout << endl << "Estas son todas tus Computadoras :" << endl;
     lab.mostrar();
     
