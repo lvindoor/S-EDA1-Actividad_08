@@ -4,6 +4,12 @@
 using namespace std;
 
 int main() {
+
+    /* Recuperar */
+    // Laboratorio lab;
+    // lab.recuperar();
+    // lab.mostrar();
+
     /* Metodo Parametrizado */
     Computadora c_01 = Computadora("Windows 10", 8, "Alejandro Garcia", "Core i7");
     
@@ -28,6 +34,10 @@ int main() {
     lab << c_02 << c_03; // agregamos al arreglo
     cout << endl << "Estas son todas tus Computadoras :" << endl;
     lab.mostrar();
-    
+
+    /* Respaldar */
+    lab.respaldarTabla();
+    lab.respaldar(); // linea por linea
+
     return 0;
 }
